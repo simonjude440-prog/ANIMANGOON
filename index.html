@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMANGOON - Univers Manga & BD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ANIMA<span>NGOON</span></div>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#catalogue">Mangas</a>
+        <a href="#catalogue">Comics</a>
+    </nav> 
+    
+        <a href="adultes.html" class="btn-18">🔞 +18</a>
+        <a href="#catalogue" class="btn">Explorer</a>
+    </header>
+
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <p class="subtitle">BIENVENUE DANS TON UNIVERS BD</p>
+
+            <h1>ENTRE DANS<br>UN AUTRE <span>MONDE.</span></h1>
+
+            <p>
+                Découvre des mangas, des comics et des bandes dessinées
+                africaines. Explore des histoires incroyables et trouve
+                tes prochaines lectures.
+            </p>
+
+            <div class="buttons">
+                <a href="#catalogue" class="btn">Découvrir les BD</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="anime-card">
+                <span>物語</span>
+                <h2>ANIME<br>WORLD</h2>
+                <p>YOUR NEXT STORY</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalogue" id="catalogue">
+
+        <div class="section-title">
+            <p>EXPLORE TON UNIVERS</p>
+            <h2>Nos <span>BD populaires</span></h2>
+        </div>
+
+        <input type="text" id="search" placeholder="Rechercher un manga, un comic...">
+
+        <div class="categories">
+            <button class="active" data-category="Tous">Tout</button>
+            <button data-category="Manga">Manga</button>
+            <button data-category="Comics">Comics</button>
+            <button data-category="BD africaine">BD africaine</button>
+        </div>
+
+        <div class="bd-container" id="bd-container"></div>
+
+    </section>
+
+
+    <footer>
+        <div class="logo">ANIMA<span>NGOON</span></div>
+        <p>© 2026 ANIMANGOON - Tous droits réservés.</p>
+        <p>Ton univers BD commence ici.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
